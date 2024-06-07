@@ -37,8 +37,8 @@
 <body class=".font-manrope">
 
     <header class="container mx-auto mt-3">
-        <nav>
-        <div class="navbar bg-base-100">
+        <nav class="">
+        <div class="navbar bg-base-100  ">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -54,9 +54,9 @@
                   <li><a>Contacts</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost text-4xl font-extrabold">Hockey<span class="text-primary">'</span>s</a>
+              <a class="btn btn-ghost  text-2xl lg:text-4xl font-extrabold">Hockey<span class="text-primary">'</span>s</a>
             </div>
-            <div class="navbar-center hidden lg:flex">
+            <div class="navbar-center hidden  lg:flex">
               <ul class="menu menu-horizontal px-1 text-base font-normal">
                 <li><a class="text-primary font-bold">Home</a></li>
                   <li>
@@ -67,20 +67,20 @@
                   <li><a>Contacts</a></li>
               </ul>
             </div>
-            <div class="navbar-end space-x-5">
+            <div class="navbar-end space-x-3 lg:space-x-5  ">
                 <i class="fa-solid fa-magnifying-glass text-[#89898B]"></i>
-              <a class="btn bg-primary text-xl text-white px-6 font-bold">Get Ticket</a>
+              <a class="btn bg-primary lg:text-xl text-white lg:px-6 font-bold">Get Ticket</a>
             </div>
           </div>
         </nav>
-        <div class="carousel w-full mt-8 lg:mt-16 h-[350px] md:h-[500px] rounded-2xl">
+        <div class="carousel w-full mt-8 lg:mt-12 h-[350px] md:h-[500px] rounded-2xl">
             <div id="slide1" class="carousel-item relative w-full object-cover ">
               <img src="images/1.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-8 bottom-0 space-x-2 ">
                 <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a> 
                 <a href="#slide2" class="btn btn-circle  bg-black text-white">❯</a>
               </div>
-              <div class="absolute w-1/3 p-8 bg-dark rounded-xl bottom-10 right-10 ">
+              <div class="absolute w-1/3 p-8 bg-dark rounded-xl hidden lg:block lg:bottom-10 lg:right-10 ">
                 <h2 class="text-white">Meet all the heroes from the field</h2>
                 <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin. </p>
     
@@ -88,11 +88,11 @@
             </div> 
             <div id="slide2" class="carousel-item relative w-full">
               <img src="images/12.jpg" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-8 bottom-0 space-x-2 ">
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-8 bottom-0  space-x-2 ">
                 <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a> 
                 <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
               </div>
-              <div class="absolute w-1/3 p-8 bg-dark rounded-xl bottom-10 right-10 ">
+              <div class="absolute lg:w-1/3 p-8 bg-dark rounded-xl hidden lg:block lg:bottom-10 lg:right-10 ">
                 <h2 class="text-white">Meet all the heroes from the field</h2>
                 <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin. </p>
     
@@ -104,7 +104,7 @@
                 <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a> 
                 <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
               </div>
-              <div class="absolute w-1/3 p-8 bg-dark rounded-xl bottom-10 right-10 ">
+              <div class="absolute w-1/3 p-8 bg-dark rounded-xl hidden lg:block lg:bottom-10 lg:right-10 ">
                 <h2 class="text-white">Meet all the heroes from the field</h2>
                 <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin. </p>
     
@@ -113,46 +113,51 @@
            
             </div> 
            
+          
+          <div class="w-full p-8 bg-dark rounded-xl lg:hidden mt-2   ">
+            <h2 class="text-white">Meet all the heroes from the field</h2>
+            <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin. </p>
+
           </div>
         
     </header>
-    <main class="container mx-auto mt-3">
+    <main class="container mx-auto lg:mt-28 mt-16">
         <!-- Club facility -->
-        <section class="mt-32 space-y-8 px-2">
+        <section class="lg:mt-28 mt:14 space-y-8 px-2">
             <hr class="h-[1px] border-dashed  ">
             <div class="text-center space-y-4 w-full lg:w-1/2 mx-auto">
                 <h1 class="lg:text-4xl text-2xl font-extrabold text-[#131318]">Professional Hockeys Club</h1>
-                <p class="text-base w-[80%] mx-auto lg:w-full font-medium text-light">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="lg:text-base text-sm w-[80%] mx-auto lg:w-full font-medium text-light">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <hr class="h-[1px] border-dashed  ">
-            <div class="grid grid-cols-1 lg:grid-cols-4 text-center gap-6 lg:gap-4 px-4 ">
+            <div class="grid grid-cols-1 lg:grid-cols-4 text-center gap-6 lg:gap-4 gap-5 px-4 ">
             <div class="space-y-2">
                <div class="radial-progress text-[#FF4240]  " style="--value:87; --size:6rem;" role="progressbar">
-                 <span class="text-2xl font-extrabold text-dark">87%</span>
+                 <span class="text-2xl  font-extrabold text-dark">87%</span>
                 </div> 
-                <h2 class="text-xl text-dark font-semibold">Prayer Facility</h2>
-                <p class="text-base text-light" >Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                <h2 class="lg:text-xl text-lg text-dark font-semibold">Prayer Facility</h2>
+                <p class="lg:text-base text-sm text-light" >Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
              </div>
             <div class="space-y-2">
                <div class="radial-progress text-[#49D293]  " style="--value:95; --size:6rem;" role="progressbar">
                  <span class="text-2xl font-extrabold text-dark">95%</span>
                 </div> 
-                <h2 class="text-xl text-dark font-semibold">Experienced Coach</h2>
-                <p class="text-base text-light" >Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                <h2 class="lg:text-xl text-lg text-dark font-semibold">Experienced Coach</h2>
+                <p class="lg:text-base text-sm  text-light" >Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
              </div>
             <div class="space-y-2">
                <div class="radial-progress text-[#FFB546]  " style="--value:90; --size:6rem;" role="progressbar">
                  <span class="text-2xl font-extrabold text-dark">90%</span>
                 </div> 
-                <h2 class="text-xl text-dark font-semibold">Senior Player</h2>
-                <p class="text-base text-light" >Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                <h2 class="lg:text-xl text-lg text-dark font-semibold">Senior Player</h2>
+                <p class="lg:text-base text-sm  text-light" >Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
              </div>
             <div class="space-y-2">
                <div class="radial-progress text-[#4C8DF1]  " style="--value:80; --size:6rem;" role="progressbar">
                  <span class="text-2xl font-extrabold text-dark">80%</span>
                 </div> 
-                <h2 class="text-xl text-dark font-semibold">Training Ground</h2>
-                <p class="text-base text-light" >Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                <h2 class="lg:text-xl text-lg text-dark font-semibold">Training Ground</h2>
+                <p class="lg:text-base text-sm text-light" >Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
              </div>
            
            
@@ -160,7 +165,7 @@
             </div>
         </section>
         <!-- Program -->
-         <section class="mt-32 space-y-8 px-2">
+         <section class="lg:mt-28 mt-16 space-y-8 px-2">
             <hr class="h-[1px] border-dashed  "> 
             <div class="text-center space-y-4 w-full lg:w-1/2 mx-auto">
                 <h1 class="lg:text-4xl text-2xl font-extrabold text-[#131318]">Program Sections</h1>
@@ -172,8 +177,8 @@
                     <img class="w-full h-[300px] lg:h-full " src="Images/2.png" alt="">
                     <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#131318] rounded-2xl opacity-50"></div>
                     <div class="absolute px-10 pb-10 text-white space-y-3 w-[80%]">
-                        <h1 class="text-2xl font-extrabold" >junior Program</h1>
-                        <p class="text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                        <h1 class="lg:text-2xl text-xl font-extrabold" >Junior Program</h1>
+                        <p class="lg:text-base text-sm font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
                             <button class="btn bg-primary border-primary text-white font-bold ">Register Now!</button>
                         </div>
@@ -182,8 +187,8 @@
                     <img class="w-full h-[300px] lg:h-full" src="Images/3.png" alt="">
                     <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#131318] rounded-2xl opacity-50"></div>
                     <div class="absolute px-10 pb-10 text-white space-y-3 w-[80%]">
-                        <h1 class="text-2xl font-extrabold" >junior Program</h1>
-                        <p class="text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                        <h1 class="lg:text-2xl text-xl font-extrabold" >Junior Program</h1>
+                        <p class="lg:text-base text-sm font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
                             <button class="btn bg-primary border-primary text-white font-bold ">Register Now!</button>
                         </div>
@@ -192,8 +197,8 @@
                     <img class="w-full h-[300px] lg:h-full " src="Images/4.png" alt="">
                     <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#131318] rounded-2xl opacity-50"></div>
                     <div class="absolute px-10 pb-10 text-white space-y-3 w-[80%] lg:w-[45%]">
-                        <h1 class="text-2xl font-extrabold" >junior Program</h1>
-                        <p class="text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                        <h1 class="lg:text-2xl text-xl font-extrabold" >Junior Program</h1>
+                        <p class="lg:text-base text-sm font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
                             <button class="btn bg-primary border-primary text-white font-bold ">Register Now!</button>
                         </div>
@@ -201,18 +206,18 @@
             </div>
          </section>
          <!-- Product section -->
-         <section class="mt-32 mb-32 space-y-8 px-2">
+         <section class="lg:mt-28 mt-16  space-y-8 px-2">
             <hr class="h-[1px] border-dashed  "> 
             <div class="text-center space-y-4 w-full lg:w-1/2 mx-auto">
                 <h1 class="lg:text-4xl text-2xl font-extrabold text-[#131318]">Our New Products</h1>
-                <p class="text-base w-[80%] mx-auto lg:w-full font-medium text-light">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.  </p>
+                <p class="lg:text-base text-sm w-[80%] mx-auto lg:w-full font-medium text-light">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.  </p>
             </div>
             <hr class="h-[1px] border-dashed  "> 
-            <div class="grid grid-cols-2 gap-5">
+            <div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
 
-                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-4 ">
-                    <figure class="p-4"><img  src="Images/5.png" alt="Movie"/></figure>
-                    <div class="card-body space-y-1 p-0 pt-4 text-light ">
+                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-2 lg:gap-4 flex-col lg:flex-row ">
+                    <figure class="m-4 lg:h-full  "><img class="" src="Images/5.png" alt="Movie"/></figure>
+                    <div class="card-body space-y-1 p-4 lg:p-0 lg:pt-4 text-light ">
                         <div class="flex gap-3">
                             <div class="flex gap-1 items-center">
                             <i class="fa-solid fa-star text-[#F99808]"></i>
@@ -237,9 +242,9 @@
                     </div>
                   </div>
                
-                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-4 ">
+                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-2 lg:gap-4 flex-col lg:flex-row  ">
                     <figure class="p-4"><img  src="Images/6.png" alt="Movie"/></figure>
-                    <div class="card-body space-y-1 p-0 pt-4 text-light ">
+                    <div class="card-body space-y-1 p-4 lg:p-0 lg:pt-4 text-light ">
                         <div class="flex gap-3">
                             <div class="flex gap-1 items-center">
                             <i class="fa-solid fa-star text-[#F99808]"></i>
@@ -264,9 +269,9 @@
                     </div>
                   </div>
                
-                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-4 ">
+                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-2 lg:gap-4 flex-col lg:flex-row  ">
                     <figure class="p-4"><img  src="Images/7.png" alt="Movie"/></figure>
-                    <div class="card-body space-y-1 p-0 pt-4 text-light ">
+                    <div class="card-body space-y-1 p-4 lg:p-0 lg:pt-4 text-light ">
                         <div class="flex gap-3">
                             <div class="flex gap-1 items-center">
                             <i class="fa-solid fa-star text-[#F99808]"></i>
@@ -291,9 +296,9 @@
                     </div>
                   </div>
                
-                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-4 ">
+                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-2 lg:gap-4 flex-col lg:flex-row  ">
                     <figure class="p-4"><img  src="Images/8.png" alt="Movie"/></figure>
-                    <div class="card-body space-y-1 p-0 pt-4 text-light ">
+                    <div class="card-body space-y-1 p-4 lg:p-0 lg:pt-4 text-light ">
                         <div class="flex gap-3">
                             <div class="flex gap-1 items-center">
                             <i class="fa-solid fa-star text-[#F99808]"></i>
@@ -318,9 +323,9 @@
                     </div>
                   </div>
                
-                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-4 ">
+                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl gap-2 lg:gap-4 flex-col lg:flex-row  ">
                     <figure class="p-4"><img  src="Images/9.png" alt="Movie"/></figure>
-                    <div class="card-body space-y-1 p-0 pt-4 text-light ">
+                    <div class="card-body space-y-1 p-4 lg:p-0 lg:pt-4 text-light ">
                         <div class="flex gap-3">
                             <div class="flex gap-1 items-center">
                             <i class="fa-solid fa-star text-[#F99808]"></i>
@@ -345,9 +350,9 @@
                     </div>
                   </div>
                
-                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-4 ">
+                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-2 lg:gap-4 flex-col lg:flex-row  ">
                     <figure class="p-4"><img  src="Images/10.png" alt="Movie"/></figure>
-                    <div class="card-body space-y-1 p-0 pt-4 text-light ">
+                    <div class="card-body space-y-1 p-4 lg:p-0 lg:pt-4 text-light ">
                         <div class="flex gap-3">
                             <div class="flex gap-1 items-center">
                             <i class="fa-solid fa-star text-[#F99808]"></i>
@@ -375,14 +380,14 @@
             </div>
             </section>
             <!-- Clients Section -->
-            <section class="mt-32 mb-32 space-y-8 px-2">
+            <section class="lg:mt-28 mt-16  space-y-8 px-2">
                 <hr class="h-[1px] border-dashed  "> 
                 <div class="text-center space-y-4 w-full lg:w-1/2 mx-auto">
                     <h1 class="lg:text-4xl text-2xl font-extrabold text-[#131318]">Clients Question</h1>
                     <p class="text-base w-[80%] mx-auto lg:w-full font-medium text-light">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.   </p>
                 </div>
                 <hr class="h-[1px] border-dashed  "> 
-                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-4 mt-12 ">
+                <div class="card card-side border-[#1313181A] border-[1px] rounded-2xl  gap-4 mt-12 lg:flex-row flex-col">
                     <figure class="p-4  "><img class="h-full rounded-xl" src="Images/11.png" alt="Movie"/></figure>
                     <div class="card-body space-y-1 p-0 pt-4 pr-4 text-light ">
                         <div class="collapse collapse-plus border-b-2 rounded-none ">
@@ -449,7 +454,7 @@
                </div>
             </section>
 <!-- Get in touch -->
-            <section class="mt-32 space-y-8">
+            <section class="lg:mt-28 mt-16 space-y-8">
                 
                     <hr class="h-[1px] border-dashed  "> 
                     <div class="text-center space-y-4 w-full lg:w-1/2 mx-auto">
@@ -457,9 +462,9 @@
                         <p class="text-base w-[80%] mx-auto lg:w-full font-medium text-light">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.   </p>
                     </div>
                     <hr class="h-[1px] border-dashed  "> 
-                    <div class="flex mt-10 gap-8 ">
+                    <div class="flex mt-10 gap-8 lg:flex-row flex-col p-3 lg:p-0 ">
 
-                        <div class="p-8   border-2 w-[30%] rounded-xl flex flex-col gap-10">
+                        <div class="p-8   border-2 lg:w-[30%] rounded-xl flex flex-col gap-10">
                             <div class="bg-[#BCED6D1A] p-8 w-full rounded-xl space-y-4">
                                 <img src="Images/Group 1171275317.png" alt="">
                                 <p class="text-[#131318] font-extrabold"> <span class="text-light text-sm font-extralight"> Phone Number : </span> <br>
@@ -478,36 +483,36 @@
 </p>
                             </div>
                         </div>
-                        <div class="grid lg:grid-cols-2 grid-rows-5 h-full  flex-1 px-8 pr-0 gap-6">
-                            <div class="form-control row-span-1 w-full ">
-                                <div class="label w-full">
-                                    <span class="label-text text-xl font-extrabold">Your Name</span>
+                        <div class="grid  lg:grid-cols-2 grid-cols-1 lg:grid-rows-5 h-full  lg:flex-1 px-2 lg:px-8 lg:pr-0 lg:gap-6 gap-3">
+                            <div class="form-control lg:row-span-1 w-full ">
+                                <div class="label w-full ">
+                                    <span class="label-text  lg:text-xl text-lg font-extrabold">Your Name</span>
                                 </div>
-                                <input type="text" placeholder="Enter your full name" class="input bg-[#13131808]  w-full" />
+                                <input type="text" placeholder="Enter your full name" class="input bg-[#13131808]   w-full" />
                             </div>
                         
-                            <div class="form-control row-span-1 w-full">
+                            <div class="form-control lg:row-span-1 w-full">
                                 <div class="label w-full">
-                                    <span class="label-text text-xl font-extrabold">Your Email</span>
+                                    <span class="label-text lg:text-xl text-lg font-extrabold">Your Email</span>
                                 </div>
                                 <input type="text" placeholder="Enter your email" class="input bg-[#13131808] w-full" />
                             </div>
                         
-                            <div class="form-control row-span-1 w-full">
+                            <div class="form-control lg:row-span-1 w-full">
                                 <div class="label w-full">
-                                    <span class="label-text text-xl font-extrabold">Subject</span>
+                                    <span class="label-text lg:text-xl text-lg font-extrabold">Subject</span>
                                 </div>
                                 <input type="text" placeholder="Enter your subject" class="input  bg-[#13131808] w-full" />
                             </div>
-                            <div class="form-control row-span-1 w-full">
+                            <div class="form-control lg:row-span-1 w-full">
                                 <div class="label w-full">
-                                    <span class="label-text text-xl font-extrabold">Phone Number</span>
+                                    <span class="label-text lg:text-xl text-lg font-extrabold">Phone Number</span>
                                 </div>
                                 <input type="text" placeholder="Enter your phone number" class="input  bg-[#13131808] w-full" />
                             </div>
-                            <div class="form-control col-span-2 row-span-5 w-full">
+                            <div class="form-control lg:col-span-2 lg:row-span-5 w-full">
                                 <div class="label">
-                                  <span class="label-text text-xl font-extrabold">Message</span>
+                                  <span class="label-text lg:text-xl text-lg font-extrabold">Message</span>
                                   
                                 </div>
                                 <textarea class="textarea  bg-[#13131808] w-full h-full" placeholder="Write your message"></textarea>
@@ -517,14 +522,14 @@
                             
                         </div>
 
-                        <button class="btn col-span-2 bg-primary text-white">Send Message</button>
+                        <button class="btn lg:col-span-2 bg-primary text-white">Send Message</button>
                         
                         
                     </div>
                   
 
                     </div>
-                    <div class="mt-16 bg-[#13131808] rounded-xl flex justify-center items-center p-8">
+                    <div class="mt-16 bg-[#13131808] rounded-xl flex justify-center items-center p-8 mx-4 lg:mx-0">
 
                         <div class="space-y-3">
                             <p class="w-fit mx-auto text-dark font-extrabold text-lg">Social Media</p>
@@ -537,18 +542,18 @@
             </section>
 
     </main>
-    <footer class="footer p-20 mt-32 bg-[#131318]">
-        <aside>
-            <h2 class="text-white text-xl">Get In Touch</h2>
+    <footer class="footer lg:p-20 p-14 lg:mt-28 mt-16 bg-[#131318] grid-cols-2 lg:grid-cols-5  ">
+        <aside class="col-span-2 lg:col-span-2 mx-auto text-center lg:text-left">
+            <h2 class="text-white text-xl mx-auto lg:mx-0 ">Get In Touch</h2>
             <p class="text-[#FFFFFF99] text-base">Dit amet consectetur. Condimentum <br>   adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
-            <div class="space-x-1">
-            <i class="fa-regular fa-envelope text-primary"></i> 
+            <div class="space-x-1 mx-auto lg:mx-0">
+            <i class="fa-regular fa-envelope text-primary "></i> 
             <span class="text-base text-[#FFFFFF99]">hockeys@support.com</span></div>
-            <div class="space-x-2">
+            <div class="space-x-2 mx-auto lg:mx-0">
             <i class="fa-solid fa-phone text-primary"></i><span class="text-base text-[#FFFFFF99]">(+62) 123-321-543</span>
         </div>
         </aside> 
-          <nav>
+          <nav class="col-span-1 lg:col-span-1">
             <h6 class="footer-title text-white">Company</h6> 
             <a class="link link-hover text-[#FFFFFF99]">Leadership</a>
             <a class="link link-hover text-[#FFFFFF99]">Careers</a>
@@ -556,7 +561,7 @@
             <a class="link link-hover text-[#FFFFFF99]">News & Article</a>
             <a class="link link-hover text-[#FFFFFF99]">Legal Notice</a>
           </nav> 
-          <nav>
+          <nav class="col-span-1">
             <h6 class="footer-title text-white">Support</h6> 
             <a class="link link-hover text-[#FFFFFF99]">Help center</a>
             <a class="link link-hover text-[#FFFFFF99]">FAQ</a>
@@ -564,7 +569,7 @@
             <a class="link link-hover text-[#FFFFFF99]">Contact Us</a>
     
           </nav> 
-          <nav>
+          <nav class="col-span-2 lg:col-span-1 mx-auto lg:mx-0">
             <h6 class="footer-title text-white">Services</h6> 
             <a class="link link-hover text-[#FFFFFF99]">Academy</a>
             <a class="link link-hover text-[#FFFFFF99]">Group Lesson</a>
